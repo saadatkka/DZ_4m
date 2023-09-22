@@ -1,0 +1,38 @@
+.App{
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+
+}
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.data-preview {
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.data-preview h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
